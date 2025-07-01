@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Obter Ajuda
+    url: https://github.com/arapucajs/core/discussions/new?category=help
+    about: Se você não conseguir fazer algo funcionar como esperado, abra uma pergunta em nossos fóruns de discussão.
+  - name: Solicitar Funcionalidade
+    url: https://github.com/arapucajs/core/discussions/new?category=ideas
+    about: Sugira qualquer ideia que você tenha usando nossos fóruns de discussão.
+  - name: Problema na Documentação
+    url: https://github.com/arapucajs/docs
+    about: Para problemas na documentação, sugira alterações em nosso repositório de documentação.
