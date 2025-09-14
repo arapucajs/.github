@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: ["lts/iron", "lts/jod", "latest"]
+        node-version: ["lts/iron", "lts/jod", "lts"]
 
     steps:
       - name: Checkout code
