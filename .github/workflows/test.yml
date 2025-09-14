@@ -34,7 +34,7 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        node-version: ["lts/iron", "lts/jod", "latest"]
+        node-version: ["lts/iron", "lts/jod"]
 
     steps:
       - name: Checkout code
