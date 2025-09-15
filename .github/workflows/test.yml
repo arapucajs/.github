@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: ["lts/iron", "lts/jod", "lts"]
+        node-version: ["lts/iron", "lts/jod"]
 
     steps:
       - name: Checkout code
@@ -48,5 +48,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
+      - name: run tests
         run: npm test
